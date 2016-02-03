@@ -1,0 +1,109 @@
+/*
+ *
+ */
+ html {
+	height: 100%;
+ }
+ body {
+	padding: 50px 0px 0px 0px;
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	
+ }
+ .img-style {
+	max-width:200px;
+	border-radius:200px;
+	-webkit-border-radius:200px;
+	-moz-border-radius:200px;
+ }
+ 
+.screen-height {
+	height:100vh;
+ }
+
+ /* navbar */
+ .navbar-default {
+	background-color: rgba(85,85,85,1);
+ }
+ /* Brand */
+ .navbar-default .navbar-brand {
+	color: white;
+ }
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+/* Navbar items */
+ .navbar-default .navbar-nav > li > a  {
+	color:white;
+ }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+	background-color: rgba(45,45,45,1);
+}
+
+footer {
+	background-color: rgba(85,85,85,1);
+	color: white;
+}
+.row-footer   li  a {
+	color: white;
+}
+.row-footer   li  a:hover,
+.row-footer   li  a:focus {
+	text-decoration: none;
+}
+
+ #landing {
+	background: url("../images/photo2_chairs_ps.jpg") no-repeat center center fixed;
+	background-size: cover;
+ }
+ 
+ #portfolio {
+	background: url("../images/photo3_light_ps.jpg") no-repeat center center fixed;
+	background-size: cover;
+ }
+ #landing h1 {
+	font-size: 70px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	
+ }
+ #landing h4 {
+	margin-top: -12px;
+	padding-top: 0px;
+	padding-left: 7px;
+	font-size: 27px;
+ }
+ #landing h1, #landing h4 {
+	color: white;
+	text-shadow: 0px 2px 4px rgba(85,85,85,1);
+ }
+ #portfolio h1 {
+	font-size: 70px;
+	color: white;
+	text-shadow: 0px 2px 4px rgba(85,85,85,1);
+ }
+ #about, #contact {
+	background: rgba(248,248,248,1);
+ }
+ .thumbnail {
+	background: rgba(85,85,85,1);
+	color: white;
+	text-align: center;
+ }
+ 
+.js-hover {
+	box-shadow: 0px 4px 8px rgba(85,85,85,1);
+}
+ .media-heading {
+	font-size: 70px;
+ }
+ .media-body p {
+	font-size: 25px;
+ }
+ .img-border {
+	border: 1px solid rgba(85,85,85,1);
+	box-shadow: 0px 2px 4px rgba(85,85,85,1);
+ }
